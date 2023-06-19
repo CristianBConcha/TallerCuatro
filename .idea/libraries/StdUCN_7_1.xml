@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="StdUCN-7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/OneDrive/Escritorio/P.A/librerias/StdUCN-7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../stdlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
