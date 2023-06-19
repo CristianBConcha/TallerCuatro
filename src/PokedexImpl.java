@@ -83,11 +83,11 @@ public class PokedexImpl implements Pokedex{
 
                 switch (opcion) {
                     case "1" -> creciente();
-                    case "2" -> System.out.println("requerimineto 2");
+                    case "2" -> requerimientoDos();
                     case "3" -> tipo();
                     case "4" -> primeraEvolucion();
-                    case "5" -> System.out.println("requerimineto 5");
-                    case "6" -> System.out.println("requerimineto 6");
+                    case "5" -> requerimientoCinco();
+                    case "6" -> requerimientoSeis();
                     case "7" -> System.exit(0);
                     default -> System.out.println("El numero ingresado no corresponde a una opcion");
 
@@ -194,5 +194,17 @@ public class PokedexImpl implements Pokedex{
         else {
             System.exit(0);
         }
+    }
+    public void requerimientoDos(){
+        System.out.println("requerimineto 2");
+        iniciar();
+    }
+    public void requerimientoCinco(){
+        System.out.println("requerimineto 5");
+        iniciar();
+    }
+    public void requerimientoSeis(){
+        System.out.println("requerimineto 6");
+        iniciar();
     }
 }
